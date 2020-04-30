@@ -1,0 +1,2 @@
+Prefix plugins/CSVIndex/example/
+Plugin CSVIndex inputfile parameters.txt outputfile star.indexed.csv
