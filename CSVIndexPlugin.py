@@ -11,8 +11,8 @@ class CSVIndexPlugin:
       for line in txtfile:
          contents = line.split('\t')
          parameters[contents[0]] = contents[1].strip()
-      filestuff = open(parameters['csvfile'], 'r')
-      filestuffI = open(parameters['indexfile'], 'r')
+      filestuff = open(PyPluMA.prefix()+"/"+parameters['csvfile'], 'r')
+      filestuffI = open(PyPluMA.prefix()+"/"+parameters['indexfile'], 'r')
       self.lines = []
       for line in filestuff:
          self.lines.append(line.strip())

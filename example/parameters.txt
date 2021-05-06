@@ -1,2 +1,2 @@
-csvfile	plugins/CSVIndex/example/star.csv
-indexfile	plugins/CSVIndex/example/indices.txt
+csvfile	star.csv
+indexfile	indices.txt
